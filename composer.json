@@ -1,0 +1,21 @@
+{
+	"autoload": {
+        "psr-4": {"spider\\": ["src"]},
+        "classmap": [
+		      	"app/controllers",
+      			"app/models",
+      			"services"
+		    ]
+    },
+    "require": {
+        "noahbuscher/macaw": "dev-master",
+        "illuminate/database": "*",
+        "filp/whoops": "*",
+        "nette/mail": "*",
+        "predis/predis": "*"
+    },
+	"repositories": [
+	        {"type": "composer", "url": "http://pkg.phpcomposer.com/repo/packagist/"},
+	        {"packagist": false}
+	    ]
+ }
