@@ -1,4 +1,16 @@
 {
+    "name": "framework4php/framework",
+    "description": "php framework",
+    "license": "MIT",
+    "require": {
+    "php": ">=5.4.0"
+    },
+  "authors": [
+      {
+          "name": "ccq18",
+          "email": "348578429@qq.com"
+      }
+  ],
 	"autoload": {
         "psr-4": {"spider\\": ["src"]},
         "classmap": [
